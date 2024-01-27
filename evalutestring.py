@@ -9,7 +9,6 @@
 # "J-J" ➞ "J"
 # Notes a hyphen will separate the two letters in the string.
 
-
 alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" #write down all of the alphabet total range
 userinput = input("Enter a range of letters (e.g., a-z): ") #ask user to input letter from one - another using split as "to" e.g. a-m
 start, end = userinput.split("-") #analyze start and end point by getting the user input range e.g. a-m so, start=a, end=m
