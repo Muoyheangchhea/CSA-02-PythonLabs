@@ -9,6 +9,7 @@
 # "J-J" ➞ "J"
 # Notes a hyphen will separate the two letters in the string.
 
+
 alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 # Get user input for the letter range
@@ -25,3 +26,4 @@ result_string = alphabet[start_index:end_index + 1]
 # Convert the result string to uppercase if the start letter is uppercase
 
 print(result_string)
+
